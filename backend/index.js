@@ -25,9 +25,9 @@ app.post("/todo", async (req, res) => {
 })
 
 app.get("/todos", async (req, res) => {
-    const response = await todo.find({});
+    const todo = await todo.find({});
     res.json({
-        response
+        todo
     })
 })
 
