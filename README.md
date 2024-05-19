@@ -6,3 +6,7 @@ It has the following features.
 - Anyone user can create a todo
 - Anyone user can see their existing todo
 - Anyone user can mark a todo as done
+  
+// Initialize a node project
+// Put a package.json
+// npm install express
