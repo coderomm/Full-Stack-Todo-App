@@ -25,12 +25,15 @@ export function CreateTodo(todos, setTodos) {
         <input style={{
             padding: 10,
             margin: 10
-        }} type="text" placeholder="Enter title" id="title" onChange={(e) => setTitle(e.target.value)} /> <br />
+        }} type="text" placeholder="Enter title" id="title"
+            onChange={(e) => setTitle(e.target.value)} /> <br />
 
         <input style={{
             padding: 10,
             margin: 10
-        }} type="text" placeholder="Enter description" id="description" onChange={(e) => setTitle(e.target.value)} /> <br />
+        }} type="text" placeholder="Enter description"
+            id="description"
+            onChange={(e) => setTitle(e.target.value)} /> <br />
 
         <button style={{
             padding: 10,
